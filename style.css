@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Menus ul {
+	display: flex;
+	list-style: none;
+	margin-left: rem;
+
+
+}
+.Menus li{
+	margin-left: 2rem;
+	font-size: 1rem;
+    margin-top: 1.5rem;
+    
+
+}
+.Header{
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 10000;
+    transition: all 0.4s ease;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    
+}
+.text{
+    transition: translate(-50%, -50%);
+    position: absolute;
+    top: 15rem;
+    left: 40rem;
+    font-size: 2rem;
+}
+.text h1{
+    font-family:'The Nautigal', cursive;
+    font-size: 10rem;
+}
+.text p{
+
+    font-family: Lucida Sans Unicode;
+    font-size: 1.5rem;
+}
+.image{
+    background-color: #fff; 
+    width: 100%; 
+    height: 46.5rem; 
+    box-shadow: 0px 10px 10px rgb(201, 198, 198);
+    
+}
+.logos{
+    margin-left: 2rem;
+}
+.Header{
+    display:flex ;
+}
+.menulist{
+    text-decoration:none ;
+     color: black;
+      font-family: Lucida Sans Unicode;
+}
+.Menus{
+    display:flex ;
+}
+.Menubar{
+    display:flex ;
+     margin-left: rem;
+}
+.Ul_menu{
+    display:flex; 
+    list-style: none; 
+    text-decoration: none;
+    margin-left: 2rem;
+
+}
+.all_info{
+    display: flex; 
+    margin-left: 13rem; 
+    margin-top: 1rem;
+}
+.Social_media_logo{
+    margin-left: 2rem;
+}
+.number{
+    font-size: 18px; 
+    padding-left: 0.5rem;
+    margin-top: .5rem;
+}
+.Phone_logo.png{
+    height: 15px; 
+    width: 30px;
+}
+.Phone_details{
+    display: flex;
+    padding: 0rem 0rem 0rem 0rem;
+}
+.mid_content_text{
+    margin-top: 5rem ;
+    
+    
+}
+
+.mid_content_text h1{
+    color: rgb(0, 0, 0);
+    /* text-align: center; */
+    font-family:'The Nautigal', cursive;
+    font-size: 7rem;
+    margin-left: 38rem;
+   
+}
+.mid_content_text h2{
+    color: rgb(0, 0, 0);
+    /* text-align: center; */
+    font-family:'The Nautigal', cursive;
+    font-size: 4rem;
+    margin-left: 38rem;
+}
+
+.mid_content_text2{
+    color: black;
+      font-family: Lucida Sans Unicode;
+      font-size: 1.1rem;
+    }
+
+    /* .ab{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        align-items: center;
+        border: 2px solid var(--first-color);
+        border-radius: 30px;
+        padding: 1rem;
+    } */
+
+    /*Button*/
+    .block {
+        display: block;
+        width: 20rem;
+        border: none;
+        background-color: rgb(252, 90, 228);
+        color: black;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 30px;
+        margin-left: 40rem;
+      }
+      
+      .block:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* services */
+      .Service{
+        margin-top: 15rem;
+      }
+      .serives_logo1{
+        display: flex;
+      }
+      .manicure{
+        margin-left: 5rem;
+      }
+      .Medias h1{
+        font-family:'The Nautigal', cursive;
+      }
+
+      /* Media factory */
+
+      .mid_content_text_mediafactory h1{
+        font-family:'The Nautigal', cursive;
+        font-size: 6rem ;
+        margin-left: 35rem;
+        margin-top: 5rem ;
+      }
+
+      .flex-container{
+        display:flex ;
+      }
+      .firstone{
+        margin-left:5rem ;
+      }
+      .mediafactoryimageone{
+        height: 27em;
+         width: 20rem;
+         margin-left:5rem ;
+      }
+      .secondone{
+        margin-left:2rem ; 
+      }
+      .thirdone{
+        margin-left:2rem ;
+      }
+      .fourthone{
+        margin-left:2rem ;
+        
+      }
+      .container{
+        display: flex;
+      }
+      .fifthone{
+        margin-left:5rem ;
+      }
+      .sixthone{
+        margin-left:2rem ;
+      }
+      .seventhone{
+        margin-left:2rem ; 
+      }
+
+      /* Footer started */
+.mappic {
+width: 30rem;
+box-shadow: 0px 10px 10px rgb(201, 198, 198);
+margin-left: 5rem;
+}
+      .Footer_text{
+        font-family:'The Nautigal', cursive;
+        font-size: 4rem ;
+        margin-left: 27rem;
+        margin-top: 5rem ;
+      }
+      .locationlogo{
+        color: green;
+        font-size: 2rem;
+      }
+      .location1{
+        display: flex;
+      }
+      .Location{
+        margin-left: 10rem;
+      }
+      .location_text{
+        margin-left: 1rem;
+      }
+.phone_logo2{
+    color: green;
+        font-size: 2rem;
+}
+.phone_number_text{
+    margin-left: 0.5rem;
+}
+.phone_details{
+    margin-top: 2rem;
+}
+.footer_logo{
+    display: flex;
+    margin-top: 5rem;
+}
+.footer_last_text p{
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+.footer_last_text{
+    margin-left: 15rem;
+    margin-top: 2rem;
+}
+.footer_last_text1{
+    margin-left: 13rem;
+}
